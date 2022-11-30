@@ -1,0 +1,54 @@
+h1 {
+    background-color: whitesmoke;
+    color: lightslategrey;
+    font-family: monospace;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0.5rem;
+    background-color: #036197;
+}
+
+.section {
+    background-color: #76bce5;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.paragraph {
+    background-color: #98ddff;
+    color: #032e5d;
+    font-family: 'Courier New';
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.paragraph.dragging {
+    opacity: 0.3;
+}
+
+.papelera {
+    margin: 0.5rem;
+    width: 50px;
+    float: right;
+    justify-items: right;
+}
+
+.parrafo.dragging {
+    opacity: 0.3;
+}
+
+.imagen-fantasma {
+    width: 400px;
+    height: 35px;
+    background-color: #001742;
+    position: absolute;
+    left: -100vw;
+}
